@@ -12,9 +12,9 @@ public class Note {
 	int id;
 	Date date_completion;
 
-	public Note(int id, Date date_completion, String text, String link, String mentions, String description, int priority, Date date_est_completion, Date date_creation) {
+	public Note(int id, String text, String link, String mentions, String description, int priority, Date date_est_completion, Date date_creation) {
 		this.id = id;
-		this.date_completion = date_completion;
+		this.date_completion = null;
 		this.text = text;
 		this.link = link;
 		this.mentions = mentions;
