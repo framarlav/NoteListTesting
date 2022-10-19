@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PersistNotes2ApplicationTests {
-
+class NoteListDAOTests {
 	@Test
 	void contextLoads() {
+
 	}
 
 }

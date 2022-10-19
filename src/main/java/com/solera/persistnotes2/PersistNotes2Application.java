@@ -20,7 +20,7 @@ public class PersistNotes2Application {
 		NoteList noteList = new NoteList();
 		NoteListDAO accessNoteList = new NoteListDAO(noteList);
 
-		accessNoteList.showNoteList();
+		System.out.println(accessNoteList.showNoteList());
 	}
 
 }

@@ -10,7 +10,8 @@ public class NoteList {
 
     public NoteList(){
         for (int i=0;i<4;i++)
-            noteList.add(new Note(id++, new Date(),"Descripcion"+i,"Texto"+i,"www.link"+i+".com","@user"+1,10*i, new Date(), new Date()));
+            noteList.add(new Note(id++, new Date(),"Descripcion"+i,"Texto"+i,
+                    "www.link"+i+".com","@user"+1,10*i, new Date(), new Date()));
     }
 
     public List<Note> getNoteList() {
